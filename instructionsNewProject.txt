@@ -1,0 +1,16 @@
+1. Create a new folder on your PC
+2. Open that folder on Visual Studio Code
+3. In the VSC Terminal:
+    3.1 npm init playwright //It will create a project using playwright structure
+    3.2 Select next options
+        3.2.1 JavaScript
+        3.2.2 tests
+        3.2.3 Y (true)
+4. The playwright project will be created, with all the necessary files and folders on it.
+5. package.json is on every node project.
+6. Some commands to execute tests (You can check more on playwright.dev/docs/test-cli. Or google npx playwright test commands):
+    6.1 npx playwright test //Run all the tests
+    6.2 npx playwright test tests/todo-page.spec.js //Run a single test files
+    6.3 npx playwright test tests/todo-page/tests/landing-page/ //Run a set of test files
+    6.4 npx playwright test --debug //Run in debug mode with Playwright Inspector
+    6.5 npx playwright test --ui //Run tests in interactive UI mode, with a built-in watch mode (Preview)

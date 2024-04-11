@@ -1,0 +1,7 @@
+- All the configurations are in playwright.config.js
+- require is use to import/use libraries
+    //These tests are executed in Playwright environment that launches the browser and provides a fresh page to each test.
+    - const{test} = require('@playwright/test'); 
+- javascript is asynchronous, it will not run in secuence (like in Java). 
+    - await: Use it before every step, to wait until the past step is completed.
+- use .fill instead of .type('String'), because this last one is deprecated.
